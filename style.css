@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+
+.imgtranslate{
+    object-position: calc(-4*34vw);
+}
+.imgtranslatexbox{
+    object-position: calc(-3*36vw);
+}
+
+@media (min-width: 860px) {
+    .imgheight{
+        height: calc(25vw + 160px);
+    }
+}
+
+
+.bgcg{
+    background-position: calc(13vw - 340px);
+}
+
+@tailwind utilities;
+
+@media (min-width: 860px) {
+    .m365{
+        padding-left: calc(-225px + 30vw);
+    }
+}
+@media (min-width: 1280px) {
+    .m365{
+        padding-left: calc(-225px + 22vw);
+    }
+}
+.transit{
+    transition: all 300ms ease-out;
+}
+.mar{
+    margin-left: -16px !important;
+}
+@media (min-width: 860px){
+    .mres{
+        margin-left: 16px !important;
+    }
+}
